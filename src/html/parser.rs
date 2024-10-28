@@ -48,7 +48,6 @@ where
         chars.next();
     }
 
-
     while let Some(&ch) = chars.peek() {
         if ch.is_whitespace() || ch == '>' {
             break;
