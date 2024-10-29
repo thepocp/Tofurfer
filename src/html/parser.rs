@@ -34,6 +34,7 @@ where
         tag,
         children,
         attributes,
+        styles: HashMap::new(),
     }
 }
 

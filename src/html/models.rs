@@ -6,6 +6,7 @@ pub enum Node {
         tag: String,
         children: Vec<Node>,
         attributes: HashMap<String, String>,
+        styles: HashMap<String, String>,
     },
     Text(String),
 }
